@@ -18,18 +18,18 @@ HWP Mono is a font created based on the [Iosevka](https://github.com/be5invis/Io
 4. Oblique variants were not included.
 5. See `CHANGELOG.txt` for other changes.
 
-## 📦 Downloads
+## Downloads
 
 Download fonts from these links below:
 
 - [HWPweb (latest version only)](https://files.aku-hafizulwananda.com/HwpMono.zip)
 - [GitHub Releases](https://github.com/hafizulwanandaputra/hwp-mono-font/releases)
 
-## ⚙️ Build
+## Build
 
-Use Linux, Windows Subsystem for Linux (WSL), macOS, or other UNIX based operating systems to compile the font.
+Use Linux, Windows Subsystem for Linux (WSL), macOS, or other UNIX based operating systems to build the font.
 
-To compile the font, run:
+To build the font, run:
 
     git clone --depth 1 https://github.com/be5invis/Iosevka.git
     cd Iosevka
@@ -40,6 +40,106 @@ To compile the font, run:
 
 To save your CPU and RAM usage, insert the `jCmd` value when running `build.sh`.
 
+## Using the Font to the Web
+
+To use this font for your website or web application project, use these configuration:
+
+### HTML `<head>`
+
+Specify the `href` to the correct location of the font face CSS inside the `HwpSansMono` and `HwpSerifMono` folder on your project.
+
+- Hinted:
+
+  ```
+  <link rel="stylesheet" href="path/to/HwpSansMono/HwpSansMono.css">
+  <link rel="stylesheet" href="path/to/HwpSerifMono/HwpSerifMono.css">
+  ```
+
+- Unhinted:
+
+  ```
+  <link rel="stylesheet" href="path/to/HwpSansMono/HwpSansMono-Unhinted.css">
+  <link rel="stylesheet" href="path/to/HwpSerifMono/HwpSerifMono-Unhinted.css">
+  ```
+
+### CSS
+
+    .class1 {
+        font-family: "HWP Sans Mono Web", monospace;
+    }
+
+    .class2 {
+        font-family: "HWP Serif Mono Web", monospace;
+    }
+
+### HTML `<body>`
+
+    <p class="class1">Hello HWP Sans Mono</p>
+    <p class="class2">Hello HWP Serif Mono</p>
+
+### React.js and Vue.js
+
+1. Copy `HwpSansMono` and `HwpSerifMono` folder into your project (e.g. `src/assets/fonts/`).
+2. Import the font face CSS in the `src/index.js` file.
+   - Hinted
+     ```
+     import './assets/fonts/HwpSansMono/HwpSansMono.css';
+     import './assets/fonts/HwpSerifMono/HwpSerifMono.css';
+     ```
+   - Unhinted
+     ```
+     import './assets/fonts/HwpSansMono/HwpSansMono-Unhinted.css';
+     import './assets/fonts/HwpSerifMono/HwpSerifMono-Unhinted.css';
+     ```
+3. Add the CSS in the `App.css` file.
+
+   ```
+   .class1 {
+       font-family: 'HWP Sans Mono Web', monospace;
+   }
+
+   .class2 {
+       font-family: 'HWP Serif Mono Web', monospace;
+   }
+   ```
+
+4. Example of `App.js` on React.js.
+
+   ```
+   import React from 'react';
+   import './App.css';
+
+   function App() {
+       return (
+           <div>
+               <p className="class1">Hello HWP Sans Mono</p>
+               <p className="class2">Hello HWP Serif Mono</p>
+           </div>
+       );
+   }
+
+   export default App;
+   ```
+
+5. Example of `App.vue` on Vue.js.
+
+   ```
+   <template>
+       <div>
+           <p class="class1">Hello HWP Sans Mono</p>
+           <p class="class2">Hello HWP Serif Mono</p>
+       </div>
+   </template>
+
+   <script>
+       export default {
+           name: 'App'
+       }
+   </script>
+
+   <style src="./App.css"></style>
+   ```
+
 ## Contents
 
 - HWP Sans Mono (18 hinted ttf, 18 unhinted ttf, 18 hinted woff, 18 unhinted woff, 2 CSS files)
@@ -47,11 +147,11 @@ To save your CPU and RAM usage, insert the `jCmd` value when running `build.sh`.
 
 Total: 148 files
 
-## 🙏 Credits
+## Credits
 
 This font is based on the Iosevka project.
 
-## 📜 License
+## License
 
 Released under the SIL Open Font License 1.1.  
 See `LICENSE.txt` for details.
