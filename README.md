@@ -40,6 +40,8 @@ To build the font, run:
 
 To save your CPU and RAM usage, insert the `jCmd` value when running `build.sh`.
 
+[Click here](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md) for more build instructions.
+
 ## Using the Font to the Web
 
 To use this font for your website or web application project, use these configuration:
