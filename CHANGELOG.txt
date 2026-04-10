@@ -1,6 +1,6 @@
 Modifications since last major version:
 
-For Iosevka changelog, https://github.com/be5invis/Iosevka/blob/main/CHANGELOG.md
+For Iosevka changelog, visit https://github.com/be5invis/Iosevka/blob/main/CHANGELOG.md
 
 26.04.0
 - Initial release
