@@ -2,6 +2,26 @@ Modifications since last major version:
 
 For Iosevka changelog, visit https://github.com/be5invis/Iosevka/blob/main/CHANGELOG.md
 
+34.4.0
+- Use the same version as the Iosevka
+- Upstream to Iosevka version 34.4.0
+- variants.design changes for HWP Sans Mono:
+    zero = "tall-slashed" (previously "oval-unslashed")
+    capital-q = "crossing-baseline" (previously "crossing")
+    i = "serifless" (previously "hooky")
+    j = "flat-hook-serifless" (previously default)
+    l = "flat-tailed" (previously default)
+    t = "flat-hook-short-neck" (previously default)
+- variants.design removal for HWP Sans Mono:
+    six = "straight-bar"
+    nine = "straight-bar"
+    r = "serifless"
+    long-s = "bent-hook-serifless"
+    partial-derivative = "curly-bar"
+- variants.design changes for HWP Serif Mono:
+    zero = "tall-slashed" (previously "oval-unslashed")
+    t = "flat-hook-short-neck" (previously "flat-hook")
+
 26.04.0
 - Initial release
 - Upstream to Iosevka version 34.3.0
