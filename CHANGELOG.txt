@@ -2,6 +2,9 @@ Modifications since last major version:
 
 For Iosevka changelog, visit https://github.com/be5invis/Iosevka/blob/main/CHANGELOG.md
 
+34.6.1
+- Upstream to Iosevka version 34.6.1
+
 34.6.0
 - Upstream to Iosevka version 34.6.0
 
