@@ -1,0 +1,162 @@
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-Thin.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-ThinItalic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-ExtraLight.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-ExtraLightItalic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-Light.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-LightItalic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-Regular.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-Italic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-Medium.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-MediumItalic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-SemiBold.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-SemiBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-Bold.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-BoldItalic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-ExtraBold.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-ExtraBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/HwpSansMono-Heavy.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'HWP Sans Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/HwpSansMono-HeavyItalic.woff2') format('woff2'), url('TTF-Unhinted/HwpSansMono-HeavyItalic.ttf') format('truetype');
+}
